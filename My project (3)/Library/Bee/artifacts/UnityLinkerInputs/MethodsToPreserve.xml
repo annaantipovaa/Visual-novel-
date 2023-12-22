@@ -1,0 +1,30 @@
+<linker>
+	<assembly fullname="Assembly-CSharp" ignoreIfMissing="1">
+		<type fullname="DialogueShow">
+			<method name="ChangeBackground"/>
+			<method name="FinalScreen"/>
+			<method name="FinishGame"/>
+			<method name="SkipTextClick"/>
+		</type>
+		<type fullname="InternalMenu">
+			<method name="ConfirmExit"/>
+			<method name="Exit"/>
+			<method name="OpenDialogueLog"/>
+			<method name="PauseGame"/>
+			<method name="Resume"/>
+			<method name="Resume2"/>
+		</type>
+		<type fullname="MainCharacter">
+			<method name="ChangeSprite"/>
+		</type>
+		<type fullname="MainMenuControl">
+			<method name="ConfirmExit"/>
+			<method name="ConfirmExit"/>
+			<method name="Exit"/>
+			<method name="StartGame"/>
+		</type>
+		<type fullname="SecondCharacter">
+			<method name="ChangeSprite"/>
+		</type>
+	</assembly>
+</linker>
