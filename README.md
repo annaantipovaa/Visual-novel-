@@ -1,2 +1,2 @@
-Visual novel "The truth"
+Kinetic visual novel "The truth"
 Unity, C#
