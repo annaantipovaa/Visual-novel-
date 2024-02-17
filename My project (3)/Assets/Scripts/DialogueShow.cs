@@ -86,7 +86,7 @@ public class DialogueShow : MonoBehaviour
     }
 
 
-    public void ChangeBackground() //меняется фон в зависимости от номера индекса в массиве
+    public void ChangeBackground()
     {
         switch (index)
         {
@@ -141,9 +141,28 @@ public class DialogueShow : MonoBehaviour
         }
     }
 
-    public void FinalScreen()
+    /*public void Endings()
+   {
+       if(index == 76)
+       {
+           character2's sprite 
+           choice buttons 
+           if(button1)
+           {
+               finalScreen.SetActive(true);
+               finalText.SetActive(true);
+               finalButton.SetActive(true); //first ending 
+           }
+           else if(button2) //second ending 
+           {
+               SceneManager.LoadScene(2);
+           }
+       }
+   }*/
+
+    public void FinalScreen() //delete later 
     {
-        if(index == 75)
+        if(index == 76)
         {
             finalScreen.SetActive(true);
             finalText.SetActive(true);
