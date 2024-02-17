@@ -1,2 +1,1 @@
-Kinetic visual novel "The truth"
-Unity, C#
+Short visual novel "The truth" with two endings (currently in developing)
